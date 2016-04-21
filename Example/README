@@ -3,11 +3,11 @@ use the following instructions:
 g++ -O3 -pthread -mavx2 -msse4 -o general  '../main.cpp'      
 // you can change the path to access the main.cpp
 
-./general dna3_40_4_16_new.table smalldna.in 40 4 8 8 0 2 1
-./general dna3_40_4_16_new.table smalldna.in 40 4 8 8 0 2 2
+./general dna3_40_4_16_new.table testdna.in 40 4 8 8 0 2 1
+./general dna3_40_4_16_new.table testdna.in 40 4 8 8 0 2 2
 
-./general protn2_281_20_254_new.table smallpro.in 281 20 8 8 0 3 1
-./general protn2_281_20_254_new.table smallpro.in 281 20 8 8 0 3 2
+./general protn2_281_20_254_new.table testpro.in 281 20 8 8 0 3 1
+./general protn2_281_20_254_new.table testpro.in 281 20 8 8 0 3 2
 
-./general huff_511_2_0_new.table small.in 511 2 8 8 0 0 1
-./general huff_511_2_0_new.table small.in 511 2 8 8 0 0 2
+./general huff_511_2_0_new.table testhuff.in 511 2 8 8 0 0 1
+./general huff_511_2_0_new.table testhuff.in 511 2 8 8 0 0 2
